@@ -2,17 +2,17 @@ age = input("how old are you? ")
 age = int(age)
 
 if age > 18:
-  print("\nYou're old enough to smoke crack!")
+  print("\nYou're too old to start to learn to code FOO!")
 else:
-  print("\nYou'll be able to smoke crack one day!")
+  print("\nYou'll be able to learn pyThonG one day!")
 
-prompt = "\nIf you can't smoke crack yet, which drug would you like to do instead? "
-prompt += "\n(Enter 'quit' when you are finished.) "
+prompt = "\nIf you can't learn python yet, which language would you like to learn instead? "
+prompt += "\n\n(Enter 'q' when you are finished.)\n "
 
 while True:
-  drug = input(prompt)
+  language = input(prompt)
 
-  if drug == 'quit':
+  if language == 'q':
     break
   else:
-    print(f"You really want to do that {drug.title()}!?")
+    print(f"You really want to do that {language.title()}!? If so, you whack dawg!")
